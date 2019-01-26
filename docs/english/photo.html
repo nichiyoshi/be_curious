@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Be Curious | Photo Gallery</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Nichika YoshidaのWeb製作物と、ザンビア写真集">
+<meta name="keywords" content="Web製作,ポートフォリオ,portfolio, web building">
+<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+<link rel="stylesheet" href="../style.css">
+<link rel="apple-touch-icon" href="./images/favicon.png">
+<link rel="shortcut icon" href="./images/favicon.ico">
+<link href="https://fonts.googleapis.com/css?family=Changa+One|Sintony" rel="stylesheet">
+<script src="https://use.fontawesome.com/9a0a81c457.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-96392862-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+<header>
+  <div id="header-contact-wrapper">
+    <div id="header-address"> <i class="fa fa-envelope-o" aria-hidden="true"></i> <span>nichika.yoshida@gmail.com</span> </div>
+    <div id="header-facebook"> <a href="https://www.facebook.com/nichika.yoshida" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> </div>
+    <div id="header-instagram"> <a href="https://www.instagram.com/nichika_yoshida/?hl=ja" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a> </div>
+    <a href="../photo.html "class="english">&nbsp;&nbsp;&nbsp;日本語</a> </div>
+</header>
+<section id="top-bar"> <a href="./index.html">
+  <h1>Be curious</h1>
+  </a>
+  <div id="top-bar-btn"><i class="fa fa-bars fa-2x" aria-hidden="true"></i><span>Menu</span></div>
+  <nav>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About me</a></li>
+      <li><a href="./mywork.html">My work</a></li>
+      <li><a class="active" href="./photo.html">Photo Gallery</a></li>
+    </ul>
+  </nav>
+</section>
+<div id="container">
+  <nav><a href="./index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a> &gt; Photo Gallery</nav>
+  <section id="various-works" class="various-photos">
+    <h3>PHOTO GALLERY</h3>
+    <p>Zambia life</p>
+    <ul id="photos">
+      <li data-id="1"><img src="../images/cooking.jpg" alt="cooking"><span>Expand&nbsp;<i class="fa fa-expand" aria-hidden="true"></i></span></li>
+      <li data-id="2"><img src="../images/chameleon.jpg" alt="chameleon"><span>Expand&nbsp;<i class="fa fa-expand" aria-hidden="true"></i></span></li>
+      <li data-id="3"><img src="../images/market.jpg" alt="local market"><span>Expand&nbsp;<i class="fa fa-expand" aria-hidden="true"></i></span></li>
+      <li data-id="4"><img src="../images/kidswidthtire.jpg" alt="kids playing with a tire"><span>Expand&nbsp;<i class="fa fa-expand" aria-hidden="true"></i></span></li>
+      <li data-id="5"><img src="../images/backets.jpg" alt="que for water"><span>Expand&nbsp;<i class="fa fa-expand" aria-hidden="true"></i></span></li>
+      <li data-id="6"><img src="../images/kids.jpg" alt="kids"><span>Expand&nbsp;<i class="fa fa-expand" aria-hidden="true"></i></span></li>
+      <li data-id="7"><img src="../images/familyphoto.jpg" alt="family photo"><span>Expand&nbsp;<i class="fa fa-expand" aria-hidden="true"></i></span></li>
+      <li data-id="8"><img src="../images/japantshirt.jpg" alt="a man with Japan t-shirt"><span>Expand&nbsp;<i class="fa fa-expand" aria-hidden="true"></i></span></li>
+      <li data-id="9"><img src="../images/installingtank.jpg" alt="tank installation"><span>Expand&nbsp;<i class="fa fa-expand" aria-hidden="true"></i></span></li>
+    </ul>
+  </section>
+  <div id="photo-modal-wrapper">
+    <div id="photo-image-wrapper"> <i class="fa fa-compress fa-2x" aria-hidden="true"></i> <img src="../images/cooking.jpg">
+      <p>調理をしている風景。ほとんどの家庭は、炭で火をおこす。炭の節約のために一品ずつ調理するため、火の準備から調理完成までに2時間かかることも珍しくない。</p>
+    </div>
+  </div>
+</div>
+<footer>
+  <div id="up-arrow"> <a href="#"><i class="fa fa-caret-square-o-up fa-2x" aria-hidden="true"></i></a> </div>
+  <div id="footer-address"> <i class="fa fa-envelope-o" aria-hidden="true"></i> <span>nichika.yoshida@gmail.com</span> </div>
+  <div id="footer-facebook"> <a href="https://www.facebook.com/nichika.yoshida" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> </div>
+  <div id="footer-instagram"> <a href="https://www.instagram.com/nichika_yoshida/?hl=ja" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a> </div>
+  <a href="../photo.html "class="english"> 日本語</a>
+    <p><br>Last updated on <span class="date"></span></p>
+  <div id="copyright">&copy;2017 Be Curious. All Rights Reserved</div>
+</footer>
+<script src="./script.js"></script>
+</body>
+</html>
